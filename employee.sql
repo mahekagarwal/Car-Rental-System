@@ -1,0 +1,10 @@
+SQL> CREATE TABLE EMPLOYEE
+   (
+   EmployeeFName VARCHAR(100) NOT NULL,
+   EmployeeID INT NOT NULL,
+   EmployeeLName VARCHAR(100) NOT NULL,
+   Title VARCHAR(100) NOT NULL,
+   SSN INT NOT NULL,
+   PRIMARY KEY (EmployeeID),
+   UNIQUE (SSN)
+   );
